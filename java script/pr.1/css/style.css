@@ -1,0 +1,78 @@
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+
+.table{
+    text-align: center;
+}
+.distance-menu{
+    text-align: center;   
+}
+.dst , .title{
+display: flex;
+justify-content: center;
+}
+
+.distance-menu{ 
+    text-align: center; 
+    width: 200px;
+    min-height: 165px;
+    border-radius: 10px;
+    color: white;
+    background-color: #7051FD; 
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid black;  
+}
+.Currency-menu{
+    text-align: center; 
+    width: 200px;
+    min-height: 165px;
+    border-radius: 10px;
+    color: white;
+    background-color: #7051FD; 
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid black;  
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+  }
+  .main-box{
+    display: flex;
+    justify-content: center;
+  }
+  .content-2{
+    display: flex;
+    justify-content: center;
+  }
+ .ctof , .ftoc , .ktof , .ctok , .km , .mb {
+    width: 200px;
+    min-height: 165px;
+    border-radius: 10px;
+    color: white;
+    background-color: #7051FD; 
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+  }
+  .ctof button , .ftoc button , .ktof button, .ctok button{
+    background-color: #0D1682;
+    border: 2px solid black;
+    color: white;
+    padding: 5px;
+  }
+  .km button , .mb button{
+    background-color: #0D1682;
+    border: 2px solid black;
+    color: white;
+    padding: 5px;
+  }

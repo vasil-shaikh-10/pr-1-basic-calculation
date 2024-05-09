@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- meter to feet -->
+    <div class="title">
+        <h1>Distance</h1>
+    </div>
+  
+    <div class="dst">
+
+        <div class="distance-menu">
+            <h2>meter to feet </h2>
+            <span>meter:</span><input type="text" id="inp-meter"></input>
+            <p id="op-feet"></p>
+            <button onclick="distance()">convert</button>
+        </div>
+    
+        <!-- feet to meter -->
+     
+        <div class="distance-menu">
+            <h2>feet to meter </h2>
+            <span>feet:</span><input type="text" id="imp-feet"></input>
+            <p id="op-meter"></p>
+            <button onclick="feet()">convert</button>
+        </div>
+           
+           <!-- meter to km -->
+           
+           <div class="distance-menu">
+            <h2>meter to km </h2>
+            <span>meter:</span><input type="text" id="imp-meter"></input>
+            <p id="op-km"></p>
+            <button onclick="km()">convert</button>
+        </div>
+    
+           <!-- km to feet -->
+         
+           <div class="distance-menu">
+            <h2>km to feet </h2>
+            <span>km:</span><input type="text" id="py-km"></input>
+            <p id="po-feet"></p>
+            <button onclick="meter()">convert</button>
+        </div>
+    
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
